@@ -46,7 +46,7 @@ However, this richness comes with limitations: uneven coverage depending on the 
 
 ### 1.2 Building the Dataset and Processing Sports Information
 
-Given the absence of centralized data on African sports facilities, we carried out a **systematic extraction** from OSM data available in `.pbf` format on the [Geofabrik portal](http://download.geofabrik.de), updated on **20 March 2025**.  
+Given the absence of centralized data on African sports facilities, we carried out a **systematic extraction** from OSM data available in `.pbf` format on the [Geofabrik portal](http://download.geofabrik.de), updated on **[20 March 2025](download.geofabrik.de/africa.html)**.  
 
 Processing took place in several steps (see code in Appendix):  
 
@@ -55,7 +55,7 @@ Processing took place in several steps (see code in Appendix):
 - **Selection** of relevant entities, with extraction of geometries (coordinates) and recorded sport types.  
 - **Cleaning**: removal of duplicates, filtering of entries without specified sport, and normalization of sport names.  
 
-Particular attention was given to **multiple sports declared** for the same facility, common in OSM (e.g. `football;basketball`). To avoid counting bias, a decomposition step split these into one record per sport. This produced a structured CSV file (`sports_facilities.csv`), containing more than **113,000** sites across the continent.  
+Particular attention was given to **multiple sports declared** for the same facility, common in OSM (e.g. `football;basketball`). To avoid counting bias, a decomposition step split these into one record per sport. This produced a structured CSV file [`sports_facilities.csv`](csv/sports_facilities), containing more than **113,000** sites across the continent.  
 
 This reproducible and automatable process allows for regular updates of the analysis and observation of changes in African sports infrastructures over time. It also opens the way to comparative readings between territories, to the identification of emerging dynamics, and to highlighting possible symbolic hierarchies of disciplines depending on geographic distribution. Comparisons with the past are also possible using archived OSM dumps (e.g., 2020, 2015).  
 
