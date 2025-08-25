@@ -120,7 +120,7 @@ The cartographic and statistical analysis of sports facilities from OSM allows u
 
 ### 3.1 The Singular Case of Netball: A Minor Sport with Major Rank
 
-Netball ranks fifth in the recorded sports list (3,377 sites), ahead of globally prominent disciplines like volleyball, cricket, or rugby. This may be surprising, since the sport is relatively unknown outside a few contexts. Originating from a British educational adaptation of basketball, netball is especially practiced in **Commonwealth anglophone countries**, particularly among women, in school and community contexts, see the [`netball interactive map`](https://benoit-prieur.fr/netball_map.html).  
+Netball ranks fifth in the recorded sports list (3,377 sites), ahead of globally prominent disciplines like volleyball, cricket, or rugby. This may be surprising, since the sport is relatively unknown outside a few contexts. Originating from a British educational adaptation of basketball, netball is especially practiced in **Commonwealth anglophone countries**, particularly among women, in school and community contexts, [`interactive map`](https://benoit-prieur.fr/netball_map.html).  
 
 The spatial analysis shows a strong concentration in **East and Southern Africa**—Kenya, South Africa, Malawi, Zimbabwe—precisely the areas where the British colonial legacy integrated the sport into education policies. In contrast, francophone and lusophone countries record almost no netball facilities.  
 
@@ -130,7 +130,7 @@ This case shows how some sports, although absent from mainstream media or intern
 
 ### 3.2 British Sports and Commonwealth Territories: The Weight of the Past
 
-Other sports historically tied to British culture—**cricket, rugby union, field hockey, bowls**—confirm this geography of sport. Crossing OSM facility locations with former colonial areas highlights strong patterns:  
+Other sports historically tied to British culture—**cricket, rugby union, field hockey, bowls**—confirm this geography of sport. Crossing OSM facility locations with former colonial areas highlights strong patterns, [`interactive map`]([https://benoit-prieur.fr/netball_map.html](https://benoit-prieur.fr/multi_sports_map.html)):  
 
 - **Rugby**, although popular in France, is weakly represented in francophone OSM data. Conversely, it is well established in Commonwealth countries such as **South Africa, Namibia, Kenya, Zimbabwe, Uganda**, which account for most of the 727 `rugby_union` records.  
 - **Cricket** shows an even clearer pattern, concentrated in **Nigeria, Ghana, Kenya, and South Africa**, and almost absent in francophone states.  
@@ -142,6 +142,8 @@ An interactive cartographic representation shows these distributions, with color
 - Cricket in **green**  
 - Rugby in **blue**  
 - Bowls in **purple**  
+
+<img src="https://github.com/Medialoco/sports_facilities_africa_osm_2025/blob/main/img/hockey_cricket_rugby_bowls_maps.png" width="400"/>
 
 Far from being just places of physical exercise, mapped facilities express **long-term histories**, **differentiated education systems**, and enduring forms of cultural hegemony. Sport thus appears as a **silent yet structuring vector** of Africa’s post-imperial territorialities.  
 
