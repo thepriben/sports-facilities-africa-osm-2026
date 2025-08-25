@@ -130,7 +130,7 @@ This case shows how some sports, although absent from mainstream media or intern
 
 ### 3.2 British Sports and Commonwealth Territories: The Weight of the Past
 
-Other sports historically tied to British culture—**cricket, rugby union, field hockey, bowls**—confirm this geography of sport. Crossing OSM facility locations with former colonial areas highlights strong patterns, [`interactive map`]([https://benoit-prieur.fr/netball_map.html](https://benoit-prieur.fr/multi_sports_map.html)):  
+Other sports historically tied to British culture—**cricket, rugby union, field hockey, bowls**—confirm this geography of sport. Crossing OSM facility locations with former colonial areas highlights strong patterns, [`interactive map`]([https://benoit-prieur.fr/multi_sports_map.html)):  
 
 - **Rugby**, although popular in France, is weakly represented in francophone OSM data. Conversely, it is well established in Commonwealth countries such as **South Africa, Namibia, Kenya, Zimbabwe, Uganda**, which account for most of the 727 `rugby_union` records.  
 - **Cricket** shows an even clearer pattern, concentrated in **Nigeria, Ghana, Kenya, and South Africa**, and almost absent in francophone states.  
