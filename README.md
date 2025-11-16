@@ -1,3 +1,4 @@
+<!--
 # Cartography and Analysis of Sports Facilities in Africa through OpenStreetMap
 
 ---
@@ -164,8 +165,8 @@ This study does not intend to close a debate, but to **open a field of research*
 By revealing sports facilities as named and inscribed on the map by contributors—local or international—this approach brings into tension the **invisible and the visible, the popular and the elite, the present and the inherited pasts**.  
 
 ---
-
-## Methodological Appendix: Extraction and Initial Processing of OSM Data
+-->
+# Methodological Appendix: Extraction and Initial Processing of OSM Data
 
 The following steps were used to build the corpus analyzed in this article:  
 
