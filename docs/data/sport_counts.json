@@ -1,0 +1,133 @@
+{
+  "snapshot_date": "2025-03-20",
+  "total_sites": 113685,
+  "total_records": 116237,
+  "distinct_sports": 183,
+  "top": [
+    {
+      "tag": "soccer",
+      "label": "Football",
+      "count": 55532
+    },
+    {
+      "tag": "tennis",
+      "label": "Tennis",
+      "count": 24236
+    },
+    {
+      "tag": "basketball",
+      "label": "Basketball",
+      "count": 9999
+    },
+    {
+      "tag": "multi",
+      "label": "Multi-sport",
+      "count": 7012
+    },
+    {
+      "tag": "netball",
+      "label": "Netball",
+      "count": 3405
+    },
+    {
+      "tag": "golf",
+      "label": "Golf",
+      "count": 1869
+    },
+    {
+      "tag": "volleyball",
+      "label": "Volley-ball",
+      "count": 1650
+    },
+    {
+      "tag": "cricket",
+      "label": "Cricket",
+      "count": 1407
+    },
+    {
+      "tag": "handball",
+      "label": "Handball",
+      "count": 1178
+    },
+    {
+      "tag": "bowls",
+      "label": "Boulingrin (bowls)",
+      "count": 1147
+    },
+    {
+      "tag": "football",
+      "label": "Football (ambigu)",
+      "count": 864
+    },
+    {
+      "tag": "field_hockey",
+      "label": "Hockey sur gazon",
+      "count": 772
+    },
+    {
+      "tag": "rugby_union",
+      "label": "Rugby à XV",
+      "count": 727
+    },
+    {
+      "tag": "athletics",
+      "label": "Athlétisme",
+      "count": 690
+    },
+    {
+      "tag": "equestrian",
+      "label": "Équitation",
+      "count": 655
+    },
+    {
+      "tag": "boules",
+      "label": "Boules / Pétanque",
+      "count": 446
+    },
+    {
+      "tag": "rugby",
+      "label": "Rugby (non spécifié)",
+      "count": 388
+    },
+    {
+      "tag": "beachvolleyball",
+      "label": "Beach-volley",
+      "count": 381
+    },
+    {
+      "tag": "baseball",
+      "label": "Baseball",
+      "count": 376
+    },
+    {
+      "tag": "shooting",
+      "label": "Tir sportif",
+      "count": 348
+    },
+    {
+      "tag": "padel",
+      "label": "Padel",
+      "count": 327
+    },
+    {
+      "tag": "running",
+      "label": "Course à pied",
+      "count": 297
+    },
+    {
+      "tag": "skateboard",
+      "label": "Skateboard",
+      "count": 282
+    },
+    {
+      "tag": "futsal",
+      "label": "Futsal",
+      "count": 248
+    },
+    {
+      "tag": "cricket_nets",
+      "label": "cricket_nets",
+      "count": 223
+    }
+  ]
+}

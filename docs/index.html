@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Créer la donnée qui manque — Le sport africain via OpenStreetMap</title>
+  <meta name="description" content="Quand aucune open data fiable n'existe, on en fabrique à partir des sources citoyennes. Cas d'école : cartographier les équipements sportifs en Afrique via OpenStreetMap, limites assumées et avantages à la clé." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Créer la donnée qui manque — Le sport africain via OpenStreetMap" />
+  <meta property="og:description" content="Pas d'open data ? On en crée. Une démarche reproductible appliquée aux équipements sportifs d'Afrique, de l'héritage du Commonwealth au suivi annuel." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/soccer_zoom_map.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="nav__brand" href="#top">⚽ <span>OSM&nbsp;Sport&nbsp;Afrique</span></a>
+    <nav class="nav__links">
+      <a href="#probleme">Le vide de données</a>
+      <a href="#chiffres">Chiffres</a>
+      <a href="#carte">Carte</a>
+      <a href="#heritage">Héritage</a>
+      <a href="#methode">Méthode</a>
+    </nav>
+    <a class="nav__cta" href="https://github.com/thepriben/sports-facilities-africa-osm-2025" target="_blank" rel="noopener">GitHub ↗</a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__glow"></div>
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Quand l'open data manque, on le fabrique</p>
+        <h1 class="hero__title">Créer la donnée <em>qui manque</em></h1>
+        <p class="hero__sub">
+          Beaucoup de sujets n'ont aucune donnée ouverte fiable. Une réponse&nbsp;: la
+          <strong>produire soi-même</strong> à partir de sources citoyennes — avec des limites
+          assumées, mais de vrais avantages. Cas d'école&nbsp;: les <strong>équipements sportifs
+          d'Afrique</strong>, cartographiés via <strong>OpenStreetMap</strong>.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#carte">Explorer la carte</a>
+          <a class="btn btn--ghost" href="https://github.com/thepriben/sports-facilities-africa-osm-2025/blob/main/preprint/preprint_fr.md" target="_blank" rel="noopener">Lire le preprint</a>
+        </div>
+        <p class="hero__snapshot">Instantané Geofabrik du <strong>20 mars 2025</strong></p>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" id="chiffres-top">
+      <div class="stat" data-count="113685">
+        <span class="stat__num">0</span>
+        <span class="stat__label">équipements géolocalisés</span>
+      </div>
+      <div class="stat" data-count="183">
+        <span class="stat__num">0</span>
+        <span class="stat__label">sports distincts recensés</span>
+      </div>
+      <div class="stat" data-count="55532">
+        <span class="stat__num">0</span>
+        <span class="stat__label">terrains de football</span>
+      </div>
+      <div class="stat" data-count="1">
+        <span class="stat__num">0</span>
+        <span class="stat__label">extraction reproductible chaque année</span>
+      </div>
+    </section>
+
+    <!-- PROBLÈME -->
+    <section class="section" id="probleme">
+      <div class="section__head">
+        <span class="kicker">Le principe général</span>
+        <h2>Pas de donnée&nbsp;? On en crée.</h2>
+        <p class="section__lead">Une démarche qui vaut bien au-delà du sport&nbsp;: là où aucune base ouverte n'existe, on fabrique un jeu de données à partir des contributions citoyennes — limites explicites, avantages assumés.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card">
+          <div class="card__icon">🕳️</div>
+          <h3>Le vide</h3>
+          <p>Aucun recensement officiel, comparable et continental des infrastructures sportives africaines. Les statistiques nationales sont éparses, hétérogènes, souvent absentes&nbsp;— un cas parmi beaucoup d'autres.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🧭</div>
+          <h3>La fabrique</h3>
+          <p>Les contributeurs OpenStreetMap cartographient terrains, stades et pitches via des tags normalisés. On en extrait une donnée&nbsp;: imparfaite et biaisée — mais ouverte, mondiale et déjà là.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🏉</div>
+          <h3>Les avantages</h3>
+          <p>Des lectures inédites&nbsp;: la donnée spatialisée révèle par exemple l'empreinte des sports britanniques dans les anciennes colonies du Commonwealth. Et la méthode est <strong>rejouable</strong> chaque année.</p>
+        </article>
+      </div>
+      <p class="note">
+        ⚠️ Limites assumées&nbsp;: la couverture OSM est inégale selon les pays et la densité des communautés locales.
+        Ce travail ne prétend pas à la représentativité&nbsp;; il vaut comme <em>première mesure</em>, comme démonstration de méthode et comme base d'évolution.
+      </p>
+    </section>
+
+    <!-- DISTRIBUTION -->
+    <section class="section section--alt" id="chiffres">
+      <div class="section__head">
+        <span class="kicker">Distribution</span>
+        <h2>Quels sports apparaissent sur la carte&nbsp;?</h2>
+        <p class="section__lead">Le football écrase la hiérarchie (près de la moitié des sites étiquetés). Mais des disciplines discrètes — comme le <strong>netball</strong> — surclassent des sports mondiaux.</p>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="sportsChart" height="420"></canvas>
+      </div>
+      <p class="note" id="chartNote"></p>
+    </section>
+
+    <!-- CARTE -->
+    <section class="section" id="carte">
+      <div class="section__head">
+        <span class="kicker">Densité</span>
+        <h2>113&nbsp;685 équipements, à l'échelle d'un continent</h2>
+        <p class="section__lead">Concentration autour des capitales et métropoles côtières, vides relatifs au Sahel et dans les zones enclavées — révélateurs autant des pratiques que de la contribution à OSM.</p>
+      </div>
+      <div class="map-frame">
+        <iframe src="maps/africa_heatmap.html" title="Carte de densité des équipements sportifs" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- NETBALL -->
+    <section class="section section--alt" id="netball">
+      <div class="section__head">
+        <span class="kicker">Cas d'école</span>
+        <h2>Le netball&nbsp;: un sport mineur, un rang majeur</h2>
+        <p class="section__lead">5ᵉ sport du continent par le nombre de sites, le netball — héritage éducatif britannique — se concentre en Afrique de l'Est et australe (Kenya, Afrique du Sud, Malawi, Zimbabwe), et disparaît dans les espaces francophones.</p>
+      </div>
+      <div class="map-frame map-frame--sm">
+        <iframe src="maps/netball.html" title="Carte des terrains de netball" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- HERITAGE -->
+    <section class="section" id="heritage">
+      <div class="section__head">
+        <span class="kicker">Géopolitique</span>
+        <h2>Sports britanniques &amp; territoires du Commonwealth</h2>
+        <p class="section__lead">Cricket, rugby à XV, hockey sur gazon et boulingrin dessinent la carte des anciennes aires coloniales britanniques — quasi absents des ex-colonies francophones et lusophones.</p>
+      </div>
+      <div class="legend">
+        <span><i style="background:#e63946"></i>Hockey sur gazon</span>
+        <span><i style="background:#2a9d8f"></i>Cricket</span>
+        <span><i style="background:#1d3557"></i>Rugby à XV</span>
+        <span><i style="background:#7209b7"></i>Boulingrin (bowls)</span>
+      </div>
+      <div class="map-frame">
+        <iframe src="maps/british_sports.html" title="Carte des sports d'origine britannique" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- METHODE -->
+    <section class="section section--alt" id="methode">
+      <div class="section__head">
+        <span class="kicker">Reproductibilité</span>
+        <h2>Une méthode rejouable chaque année</h2>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><div><strong>Télécharger</strong> l'extrait Afrique au format <code>.osm.pbf</code> (Geofabrik).</div></li>
+        <li><span>2</span><div><strong>Filtrer</strong> les <code>leisure=pitch</code>, <code>leisure=stadium</code>, <code>building=stadium</code> avec <code>osmium</code>.</div></li>
+        <li><span>3</span><div><strong>Convertir</strong> en GeoJSON puis extraire géométrie + tag <code>sport</code>.</div></li>
+        <li><span>4</span><div><strong>Nettoyer</strong> (doublons, casse, fautes) et <strong>compter</strong> par discipline.</div></li>
+        <li><span>5</span><div><strong>Cartographier</strong> avec Folium et publier.</div></li>
+      </ol>
+      <p class="note">
+        Relancée sur les dumps de 2015, 2020, 2025…, la chaîne produit des séries comparables&nbsp;:
+        le cliché devient courbe. Tout le code est ouvert sur le dépôt.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="https://github.com/thepriben/sports-facilities-africa-osm-2025" target="_blank" rel="noopener">Voir le code ↗</a>
+        <a class="btn btn--ghost" href="https://github.com/thepriben/sports-facilities-africa-osm-2025/blob/main/preprint/preprint_fr.md" target="_blank" rel="noopener">Preprint complet</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Cartographier l'introuvable</strong> — équipements sportifs en Afrique via OpenStreetMap.</p>
+    <p>Données © les contributeurs OpenStreetMap (<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">ODbL</a>) · Extrait Geofabrik du 20 mars 2025 · Code sous licence MIT.</p>
+    <p>Par <a href="https://github.com/thepriben" target="_blank" rel="noopener">thepriben</a>.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

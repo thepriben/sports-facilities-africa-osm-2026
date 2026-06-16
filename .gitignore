@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données intermédiaires OSM (volumineuses, non versionnées)
+*.osm
+*.osm.pbf
+*.geojson
+temp.geojson
+filtered_data.osm
+
+# OS
+.DS_Store
