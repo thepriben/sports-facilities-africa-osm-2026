@@ -160,10 +160,16 @@ a { color: inherit; }
 
 /* ---------- CHART ---------- */
 .chart-wrap {
+  position: relative;
+  height: 560px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 22px;
+}
+.chart-wrap canvas { width: 100% !important; height: 100% !important; display: block; }
+@media (max-width: 640px) {
+  .chart-wrap { height: 520px; padding: 14px; }
 }
 
 /* ---------- MAPS ---------- */

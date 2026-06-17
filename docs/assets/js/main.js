@@ -73,6 +73,7 @@ fetch("data/sport_counts.json")
       options: {
         indexAxis: "y",
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
           tooltip: {
