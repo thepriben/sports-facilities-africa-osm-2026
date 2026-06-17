@@ -2,6 +2,8 @@
 
 ## *Étude de cas : les équipements sportifs en Afrique via OpenStreetMap (2026)*
 
+[Dépôt GitHub](https://github.com/thepriben/sports-facilities-africa-osm-2026) · [Site web](https://thepriben.github.io/sports-facilities-africa-osm-2026/)
+
 Benoît Prieur  
  ORCID: 0000-0003-0786-0049
 
