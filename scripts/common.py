@@ -82,7 +82,7 @@ SPORT_LABELS = {
     "cricket": "Cricket",
     "bowls": "Boulingrin (bowls)",
     "handball": "Handball",
-    "football": "Football (ambigu)",
+    "football": "Football",
     "field_hockey": "Hockey sur gazon",
     "rugby_union": "Rugby à XV",
     "athletics": "Athlétisme",
