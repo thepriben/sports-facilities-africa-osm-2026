@@ -10,5 +10,8 @@ __pycache__/
 temp.geojson
 filtered_data.osm
 
+# Article (brouillon conservé en local, non publié dans le dépôt)
+preprint/article_fr.txt
+
 # OS
 .DS_Store

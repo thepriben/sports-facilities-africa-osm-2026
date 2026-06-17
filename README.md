@@ -9,7 +9,6 @@ builds one from OSM (imperfect, non-representative, but open and *re-runnable*),
 publishes the analysis as a static site.
 
 - 🌍 **Site:** https://thepriben.github.io/sports-facilities-africa-osm-2025/
-- 📄 **Article (FR):** [`preprint/article_fr.txt`](preprint/article_fr.txt)
 - 🗓️ **Data snapshot:** Geofabrik *Africa* extract — see `SNAPSHOT_DATE` in `scripts/common.py`
 
 <!-- DATASET_STATS -->
@@ -58,7 +57,7 @@ and deletes the `.pbf` afterwards (use `--keep-pbf` to keep it).
 │   ├── data/sport_counts.json
 │   ├── maps/*.html
 │   └── .nojekyll
-├── preprint/article_fr.txt     # the article (French, plain text)
+├── preprint/                   # French article draft (kept local, not published here)
 ├── images/                     # static figures
 ├── requirements.txt
 └── LICENSE
@@ -113,7 +112,3 @@ GitHub Pages, source = `main` branch, `/docs` folder. The site is fully static
 - **Code:** MIT — see [`LICENSE`](LICENSE).
 - **Data:** derived from OpenStreetMap, © OpenStreetMap contributors, under the
   [Open Database License (ODbL)](https://www.openstreetmap.org/copyright).
-
-## Author
-
-[**thepriben**](https://github.com/thepriben) (Benoît Prieur).
